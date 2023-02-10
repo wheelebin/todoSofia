@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            input {
+                width: 200px;
+                height: 30px;
+                margin: 10px;
+            }
+            button {
+                width: 200px;
+                height: 30px;
+                margin: 10px;
+            }
+            #list {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #list div {
+                width: 500px;
+                height: 30px;
+                margin: 10px;
+                border-bottom: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 5px;
+                align-items: center;
+            }
+            #list div span {
+                margin: 0 10px;
+            }
+            #list div span {
+                margin: 0 10px;
+            }
+        </style>
+    </head>
+<body>
+
+    <div class="container">
+        <input type="text" />
+        <button
+            id="addButton"
+            onclick="addItem()">
+            Add
+        </button>
+
+        <div id="list">
+            <!-- <div>4 - Cheese - 300 SEK</div> -->
+        </div>
+    </div>
+    
+    <script src="./info.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
